@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfilo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("bg.jpg");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        
+        .left {
+            /* border: 5px solid red;*/
+            display: inline-block;
+            position: absolute;
+            left: 30px;
+            top: 10px;
+        }
+        
+        .left img {
+            width: 95px;
+            left: 30px;
+        }
+        
+        .left div {
+            font-size: 25px;
+            font-family: cursive;
+            text-align: center;
+        }
+        
+        .mid {
+            /* border: 5px solid green;*/
+            display: block;
+            width: 1000px;
+            margin: 12px auto;
+        }
+        
+        .navbar {
+            display: inline-block;
+        }
+        
+        .navbar li {
+            display: inline-block;
+        }
+        
+        .navbar li a {
+            color: ivory;
+            text-decoration: none;
+            padding: 40px 30px;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: cursive;
+        }
+        
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+        
+        .my img {
+            border-radius: 150px;
+            width: 500px;
+            margin: 100px;
+            display: inline-block;
+        }
+        
+        .intro {
+            /* border: 12px solid palegreen;*/
+            margin: 125px auto;
+            display: inline-block;
+            width: 700px;
+            height: 300px;
+            float: right;
+        }
+        
+        .intro h3 {
+            font-size: 50px;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        .intro p {
+            font-family: cursive;
+            font-size: 20px;
+        }
+        
+        .about {
+            /* border: 2px solid rebeccapurple;*/
+            width: 2000px;
+            display: block;
+        }
+        
+        .about h2 {
+            font-size: 70px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+        }
+        
+        .about pre {
+            font-family: cursive;
+            font-size: 30px;
+        }
+        
+        .contact {
+            /* border: 2px solid royalblue;*/
+        }
+        
+        .contact h3 {
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        .contact pre {
+            font-size: 40px;
+            font-family: cursive;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!---for logo-->
+        <div class="left">
+            <img src="logo.png" alt="">
+            <div>portfilo</div>
+        </div>
+        <!---for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Intro</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <div class="container">
+        <div class="my">
+            <img src="p2.jpg" alt="">
+            <div class="intro">
+                <h3>Intro</h3>
+                <p>Aishwarya Rai Bachchan. Aishwarya Rai Bachchan (born 1 November 1973) is an Indian actress and the winner of the Miss World 1994 pageant. Through her successful acting career, she has established herself as one of the most popular and
+                    influential celebrities in India. ... While in college, Rai did a few modelling jobs.</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="about">
+        <h2>About Me</h2>
+        <pre>Born	Aishwarya Rai
+        1 November 1973 (age 46)
+        Mangalore, Karnataka, India
+        Alma mater	University of Mumbai
+        Occupation	Actress, model
+        Years active	1994–present
+        Title	Miss World 1994
+        Spouse(s)	Abhishek Bachchan (m. 2007)
+        Children	1
+        Family	See Bachchan family
+        Awards	Full list
+        Honours	
+        Padma Shri (2009)Ordre des Arts et des Lettres (2012)</pre>
+    </div>
+    <div class="contact">
+        <h3>Contact Me</h3>
+        <pre>
+            Jalsa, B/2, Kapol Housing Society,
+             VL Mehta Road, Juhu, Mumbai – 400049,
+              Maharashtra, India.
+        </pre>
+    </div>
+
+</body>
+
+</html>
